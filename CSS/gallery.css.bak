@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Tutorial Case
+
+   Tables Style Sheet
+   Author: J rico 
+   Date:   4/1/2022
+
+   Filename:         gallery.css
+
+*/
+li  {
+ display: inline;
+ font-size: 2.2em;
+ padding: 1 em;
+}
+ul {
+  list-style-type: none;
+}
+.gallery {
+	margin: 5px 25px;
+}
+
+.gallery img {
+	transition: 1s;
+	padding: 10px;
+	width: 250px;
+}
+.gallery img:hover {
+	filter: grayscale(100%)
+}
+<form action="/destroyImage" method="POST">
+  <button type="submit" class="close">
+    <span>&times;</span>
+  </button>
+  <img src="/pub/myimage123.jpg"/>
+</form>
+
+/* navigation for footer */
+
+
+footer {
+    width: 100%;
+	float: center;
+    margin: 0;
+    padding: 5px;
+    background-color: gray;
+    clear: both;
+    color: gold;
+    font-weight: bold;
+    text-align: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#wrapper {
+    width: 900px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-radius: 25px;
+}
+	
+footer a:link {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: navy;
+    background-color: grey;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+footer a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/*@media only screen and (min-width: 481px)*/
+nav {
+    display: table;
+    width: 96%;
+    margin: 0 auto;
+    float: none;
+}

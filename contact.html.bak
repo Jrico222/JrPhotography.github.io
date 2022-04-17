@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!--
+
+    Author: Jacquelyn Rico 
+    Date:  Spring 2022
+
+    Filename: The individual files names as you create the pages
+	
+	Start project: Provided layout in CMIS 410
+	These web pages are for educational purposes only - all content and information should be considered 
+fictional.
+  -->
+   <meta charset="utf-8" />
+ 
+   <!--the lines above belong in every html document, below add your company name to the title, this is displayed on the browser tab -->
+   <title> Jacquelyn Rico Photography </title>
+   
+   <!-- the following link to the stylesheets for this webpage  -->
+   
+   <link href="CSS/base.css" rel="stylesheet" />
+   <link href="CSS/layout.css" rel="stylesheet"/>
+   
+   
+    <!-- Head information is metadata, or information behind the scenes of the web page, it does not display on the browser  -->
+</head>
+<body>
+
+
+<!-- The header is where your logo and navigation is created, replace the image and the links with your project images and links  -->
+  <header> 
+  
+ 
+  
+	<a href="index.html"><img src="images/logoopt3.png" alt="antique logo"/></a>
+	</header> 
+
+
+	
+	<nav>
+		<ul>
+			<li><a href="index.html">About Me!!</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="1investments.html">Investment</a></li>
+			<li><a href="contact.html">Contact Me</a></li>
+		</ul>
+	</nav>
+	
+	<div id = "wrapper">
+	<!-- The article section(s) below are the content of your web page, text and images -->
+	
+  <article> 
+  
+	 
+	 <div class="outerWrap">
+    <div class="innerWrap">
+        
+		
+    </div>
+	<form id="ContactMe" action="http://jacquelynricophtotography@example.com" method="post">
+	  <fieldset id="custInfo">
+	  
+		<legend>Book your session</legend>
+		
+	<div class="formRow">
+		<label for="name">Name*</label>
+		<input name="custName" id="name" type="text" placeholder="first and last name" required />
+	</div>
+				
+		<div class="formRow">
+			<label for="city">City </label>
+			<input name="custCity" id="city"  type="text" value="Omaha area"  />
+		</div>
+		
+		<div class="formRow">			
+			<label for="state">State </label>
+			<input name="custState" id="state"  type="text" value="NE or IA" />
+		</div>
+			
+		<div class="formRow">
+			<label for="phone">Phone Number</label>
+			<input name="custphone" id="phone" type="tel" placeholder="(nnn) nnn-nnnn"
+			pattern="^\d{10}$ ^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+		</div>
+				
+		<div class="formRow">	
+			<label for="mail">Email*</label>
+			<input name="custEmail" id="mail" type="email" required/>
+		</div>
+			
+		<div class="formRow">
+			<label for="info">Where did you hear Jacquelyn Rico Photography?<br />
+			(select all that apply)</label>
+			<select name="infoSrc" id="info" size="5" multiple>
+				<option value="internet">Internet</option>
+				<option value= "mag">Instagram</option>
+				<option value="news">Facebook</option>
+				<option value="word">Friends</option>
+				<option value="other">Other</option> 
+			</select>
+		</div>
+		<aside>
+	<figure>
+	<img src="Images/mommy-small.jpg" alt="mommy and me"/>
+	 </figure>
+	 </aside>
+			
+		<div class="formRow">
+				<label for="contactme">What memories are you looking to capture?</label>
+				<input name="Memory" id="Memories" type="text" list="MemoriesCaptured"/>
+				<datalist id="Memories2">
+					<option value="Newborn">
+					<option value="Senior">
+					<option value="Families">
+					<option value="Simply I Do">
+					<option value="Purely I DO ">
+					<option value="Truly I DO">
+				</datalist>
+		</div>
+				
+		<div class="formRow">
+				<label for="serviceDate">Expected date of session? </label>
+				<input name="SessionDate" id="Date" type="Date"
+					 step="1" max="10" />
+		</div>
+			<label for="commaBox">Tell me more about your perfect session</label>
+			<textarea name="custExp" id="commBox"></textarea>
+			
+		</fieldset>
+		
+		<div id="buttons">
+			<input type="submit" value="Book My Session" />
+			<input type="reset" value="Cancel" />
+		</div>
+	</form>	
+
+	
+</article>
+
+
+    <!-- The footer section below contains contact information, links and social medial link images -->
+
+ <footer> 
+
+	<p>Jacquelyn Rico Photography<br />
+	Metropolitan area  &bull; Omaha, Ne 68102<br />
+	<a href ="https://www.instagram.com/jacquelyn.rico.photography/" target="_blank">Instagram </a>
+	|<a href ="tel:+1402-708-9284">402-708-9284</a> 
+	| <a href ="mailto:JacquelynRicoPhotos@example.com">Email Us</a>
+	</p>
+
+</footer>  
+
+</div> <!-- end wrapper --> 
+
+
+</body>
+</html>

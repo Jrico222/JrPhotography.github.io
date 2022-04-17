@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+    New Perspectives on HTML5 and CSS3, 7th Edition
+    
+    
+    Starting Page sample for final project - for educational purposes, all content is fictional 
+    Author: j rico 
+	Term and Year: 2022
+
+    Filename: index.html
+   -->
+     <meta name="keywords" content="Omaha, Photographer" />
+   <title>Jacquelyn Rico Photography</title>
+   <link href="css/base.css" rel="stylesheet" />
+   <link href="css/layout.css" rel="stylesheet" />
+   <link href="css/tables.css" rel="stylesheet" />
+  
+</head>
+
+<body>
+   <header>
+      <a href="index.html"><img src="images/logoopt3.png" alt="antique logo"/></a>
+      <nav>
+         <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="1investments.html">Investment</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+         </ul>
+      </nav>
+   </header>
+   <div id = "wrapper">
+   <article>
+      <h1>Welcome</h1>
+      <h2>I am Jacquelyn, the face behind the camera, </h2>
+	<p>I am so happy you have found me, your future photographer. My name is Jacquelyn and I have been an avid photographer since I was seven years old.  </p>
+	 <p> One of my favorite parts of being a photographer meeting families and becoming a part of their moment. I have taken photos of high school seniors who are now married that invited me to capture their wedding moments. </p>
+	<p>Take a look at my gallery to see if my style of imagery is something that you would be proud to hang on your wall. I am already looking forward to hearing from you. We have memories to capture. </p>
+<h3> Get to Know Me</h3>
+	<p> I am a mother to 4 children ranging from teen to toddler.
+	I am an animal lover, I have never met an animal that was not my friend. 
+	I enjoy being outdoors. 
+	I love Christmas!!! 
+	I am always looking to grow and try new things. If you have a crazy idea involving photos, I am your girl!</p>
+	
+	<aside> 
+
+<h3>Specialties</h3>
+
+	<p>Newborns</p>
+	<p>Families</p>
+	<p>Couples</p>
+	<p>Weddings</p>
+	<p>Seniors</p>
+	<p>Events</p>
+	<p>Boudior</p>
+
+<figure>
+  <img src="images/aboutmeoff.jpg" alt = "theface"  />
+
+  <figcaption>
+    I look forward to capturing your memories. <br />
+    </figcaption> 
+	
+	
+</figure>
+<p><img src="images/Jacquelynsigna.png" alt="signature" /> </p>
+</aside>   
+
+<h3>Before and After </h3>
+<iframe width="450" height="275" src="https://www.youtube.com/embed/40OyFBqk9Ss" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </article>
+
+   <footer>
+    
+	<p>Jacquelyn Rico Photography<br />
+	Metropolitan area  &bull; Omaha, NE 68102<br />
+	<a href ="https://www.instagram.com/jacquelyn.rico.photography/" target="_blank">Instagram </a>
+	|<a href ="tel:+1402-708-9284">402-708-9284</a> 
+	| <a href ="mailto:JacquelynRicoPhotos@example.com">Email Us</a>
+	</p>
+   </footer>
+	</body>
+</html>
